@@ -8,20 +8,91 @@ header{
     padding: 16px 0;
     background-color: black;
     color: white;
-    text-align: center;  
+    
+     
 }
 
 ul{
     list-style-type: none;
+    text-align: center;
 }
 
 ul li {
     display: inline;
     margin: 30px;
+    
 }
 
 ul li a {
     text-decoration: none;
     color: white;
-    text-decoration: solid;
+    font-weight: bold;
+    font-size: 25px;
+}
+header button{
+    background-color: #ffffff;
+    border-radius: 20px;
+	    padding: 10px 20px;
+	    text-align: center;
+}
+
+header button a{
+    text-decoration: none;
+       
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-family: monospace;
+        font-size: 20px;
+        display: flex;
+    
+        align-self: flex-start;
+}
+
+#con{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pro{
+    border: 2px solid;
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+button{
+    background-color: black;
+    text-decoration: none;
+    border-radius: 20px;
+        text-decoration: none;
+        color:white;
+        font-family: monospace;
+        font-size: 15px;
+        padding: 10px;
+
+}
+button:hover{
+    background-color: blue;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+img:hover{
+    padding: 20px;
+
+}
+
+a:hover{
+    font-size: 35px;
 }
